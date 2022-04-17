@@ -2,25 +2,25 @@ body {margin: 0px;}
 #Blue { width: 450px;
        height: 450px;
       border: 3px solid blue;
-      background-color: rgba(0, 0, 255, 0);
-     margin-left: 500px;
+      background-color: rgb(131, 235, 110);
+     margin-left: 100px;
       position: relative;
       top: 50px;
       left: 50px;z-index: 0;
     }
 #Red {width: 150px;
         height: 150px;
-       border: 3px solid rgb(250, 1, 1);
-       background-color: rgba(250, 1, 1, 0);
-       position: relative;
+      border: 3px solid rgb(250, 1, 1);
+       background-color: rgb(255, 255, 255);
+       position: absolute;
       top: 50px;
-      left: 50px;z-index: 0;
+      left: 50px;z-index: 1;
      } 
-/* #Green {width: 150px;
+#Green {width: 150px;
         height: 150px;
        border: 3px solid rgb(26, 250, 1);
-       background-color: rgb(26, 250, 1);
+       background-color: rgb(255, 255, 255);
        position: absolute;
-      top: 250px;
-      left: 250px;z-index: 1;
-     }      */      
+      bottom: 150px;
+      right: 150px;z-index: 0;
+     }           
