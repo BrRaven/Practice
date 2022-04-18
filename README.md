@@ -1,2 +1,2 @@
-# Practicek
+# Practice
 /* Учимся работать с git hub */
